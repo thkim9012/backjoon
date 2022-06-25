@@ -1,3 +1,6 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
 // 문제는 구분하기 위해 클래스에 Q + 문제번호를 넣었지만,
@@ -7,7 +10,9 @@ import java.util.Scanner;
 // import 도 다 넣어야한다.
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+        
+        // Scanner 활용
         //input
         Scanner scanner = new Scanner(System.in);
         int first = scanner.nextInt();
@@ -19,5 +24,16 @@ public class Main {
 
         //output
         System.out.println(answer);
+
+
+        // BufferedReader 활용
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        String[] str = br.readLine().split(" ");
+        int a = Integer.parseInt(str[0]);
+        int b = Integer.parseInt(str[1]);
+
+        System.out.println(a+b);
+
     }
 }

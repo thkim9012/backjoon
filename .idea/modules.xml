@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/backjoon.iml" filepath="$PROJECT_DIR$/.idea/backjoon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backjoon.iml" filepath="$PROJECT_DIR$/backjoon.iml" />
     </modules>
   </component>
 </project>
