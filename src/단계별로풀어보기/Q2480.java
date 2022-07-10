@@ -44,8 +44,6 @@ public class Q2480 {
             }
             answer = 100*max;
         }
-
-
         System.out.println(answer);
 
     }
